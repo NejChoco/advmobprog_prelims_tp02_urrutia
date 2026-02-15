@@ -474,7 +474,7 @@ class MyApp extends StatelessWidget {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: NetworkImage(
-                        'https://i.ytimg.com/vi/sAzJrcryrDw/sddefault.jpg?v=614edb18',
+                        'https://kpopreviewed.com/wp-content/uploads/2022/05/woodz_ihateyou.jpg?w=1200&h=693&crop=1',
                       ),
                       fit: BoxFit.cover,
                       colorFilter: ColorFilter.mode(
@@ -485,11 +485,11 @@ class MyApp extends StatelessWidget {
                   ),
                   child: IconTheme(
                     data: const IconThemeData(
-                      color: Color.fromARGB(179, 150, 147, 147),
+                      color: Color.fromARGB(255, 221, 218, 218),
                     ),
                     child: DefaultTextStyle(
                       style: TextStyle(
-                        color: Color.fromARGB(179, 177, 170, 170),
+                        color: Color.fromARGB(255, 221, 218, 218),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(16),
