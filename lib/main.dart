@@ -254,7 +254,7 @@ class MyApp extends StatelessWidget {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: NetworkImage(
-                        'https://i.ytimg.com/vi/sAzJrcryrDw/sddefault.jpg?v=614edb18',
+                        'https://i.scdn.co/image/ab67616d0000b2731aaed2d9bea791b5488e08a2',
                       ),
                       fit: BoxFit.cover,
                       colorFilter: ColorFilter.mode(
@@ -439,7 +439,7 @@ class MyApp extends StatelessWidget {
                               children: [
                                 Icon(Icons.music_note_rounded),
                                 SizedBox(width: 15),
-                                Text('Moonstruck'),
+                                Text('Favorite Music: Moonstruck'),
                               ],
                             ),
                             Row(
@@ -454,6 +454,116 @@ class MyApp extends StatelessWidget {
                                 Icon(Icons.interests),
                                 SizedBox(width: 15),
                                 Text('Favorite Hobby: Valorant'),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                margin: const EdgeInsets.all(10),
+                elevation: 8,
+                clipBehavior: Clip.antiAlias,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30),
+                ),
+                child: Container(
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: NetworkImage(
+                        'https://i.ytimg.com/vi/sAzJrcryrDw/sddefault.jpg?v=614edb18',
+                      ),
+                      fit: BoxFit.cover,
+                      colorFilter: ColorFilter.mode(
+                        Colors.black.withValues(alpha: 0.5),
+                        BlendMode.darken,
+                      ),
+                    ),
+                  ),
+                  child: IconTheme(
+                    data: const IconThemeData(
+                      color: Color.fromARGB(179, 150, 147, 147),
+                    ),
+                    child: DefaultTextStyle(
+                      style: TextStyle(
+                        color: Color.fromARGB(179, 177, 170, 170),
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Row(
+                              children: [
+                                Icon(Icons.person),
+                                SizedBox(width: 15),
+                                Text('Fullname: Justine Dayle Caasi'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.face),
+                                SizedBox(width: 15),
+                                Text('Nickname: Dayle'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.cake),
+                                SizedBox(width: 15),
+                                Text('Birthday: April 2, 2005'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.elderly),
+                                SizedBox(width: 15),
+                                Text('Age: 20'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.star),
+                                SizedBox(width: 15),
+                                Text('Zodiac Sign: Aries'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.palette_rounded),
+                                SizedBox(width: 15),
+                                Text('Favorite Color: Blue'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.restaurant),
+                                SizedBox(width: 15),
+                                Text('Favorite Food: Adobo'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.music_note_rounded),
+                                SizedBox(width: 15),
+                                Text('Favorite Music: I hate you by woodz'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.movie_creation_rounded),
+                                SizedBox(width: 15),
+                                Text('Favorite Movie: Avengers Endgame'),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.interests),
+                                SizedBox(width: 15),
+                                Text('Favorite Hobby: Gaming'),
                               ],
                             ),
                           ],
