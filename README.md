@@ -1,6 +1,6 @@
 # advmobprog_prelims_tp02_urrutia
 
-A new Flutter project.
+A new Flutter project aim to understand flutter (this is jus a basic flutter nothing special)
 
 ## Getting Started
 
