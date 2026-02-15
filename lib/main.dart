@@ -12,8 +12,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 73, 73, 73),
-        appBar: AppBar(title: Text('tp02 ni urrutia iiihhhhh')),
+        backgroundColor: const Color.fromARGB(255, 31, 33, 37),
+        appBar: AppBar(
+          title: Text('tp02 ni urrutia'),
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          titleTextStyle: TextStyle(color: Colors.white),
+        ),
         body: SingleChildScrollView(
           child: Column(
             children: [
@@ -39,11 +44,11 @@ class MyApp extends StatelessWidget {
                   ),
                   child: IconTheme(
                     data: const IconThemeData(
-                      color: Color.fromARGB(179, 150, 147, 147),
+                      color: Color.fromARGB(255, 187, 187, 187),
                     ),
                     child: DefaultTextStyle(
                       style: TextStyle(
-                        color: Color.fromARGB(179, 177, 170, 170),
+                        color: Color.fromARGB(255, 187, 187, 187),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(16),
@@ -151,11 +156,11 @@ class MyApp extends StatelessWidget {
                   ),
                   child: IconTheme(
                     data: const IconThemeData(
-                      color: Color.fromARGB(179, 150, 147, 147),
+                      color: Color.fromARGB(255, 194, 190, 190),
                     ),
                     child: DefaultTextStyle(
                       style: TextStyle(
-                        color: Color.fromARGB(179, 177, 170, 170),
+                        color: Color.fromARGB(255, 194, 190, 190),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(16),
@@ -265,11 +270,11 @@ class MyApp extends StatelessWidget {
                   ),
                   child: IconTheme(
                     data: const IconThemeData(
-                      color: Color.fromARGB(179, 150, 147, 147),
+                      color: Color.fromARGB(255, 202, 195, 195),
                     ),
                     child: DefaultTextStyle(
                       style: TextStyle(
-                        color: Color.fromARGB(179, 177, 170, 170),
+                        color: Color.fromARGB(255, 202, 195, 195),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(16),
@@ -329,7 +334,7 @@ class MyApp extends StatelessWidget {
                               children: [
                                 Icon(Icons.music_note_rounded),
                                 SizedBox(width: 15),
-                                Text('Mundo by iv of spades??'),
+                                Text('Mundo by IV of Spades'),
                               ],
                             ),
                             Row(
@@ -364,7 +369,7 @@ class MyApp extends StatelessWidget {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: NetworkImage(
-                        'https://i.ytimg.com/vi/sAzJrcryrDw/sddefault.jpg?v=614edb18',
+                        'https://i.scdn.co/image/ab67616d0000b273ac9d6ee9be9186ff1a28c900',
                       ),
                       fit: BoxFit.cover,
                       colorFilter: ColorFilter.mode(
@@ -375,11 +380,11 @@ class MyApp extends StatelessWidget {
                   ),
                   child: IconTheme(
                     data: const IconThemeData(
-                      color: Color.fromARGB(179, 150, 147, 147),
+                      color: Color.fromARGB(255, 192, 188, 188),
                     ),
                     child: DefaultTextStyle(
                       style: TextStyle(
-                        color: Color.fromARGB(179, 177, 170, 170),
+                        color: Color.fromARGB(255, 192, 188, 188),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(16),
