@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Row(
                               children: [
                                 Icon(Icons.person),
@@ -166,7 +166,7 @@ class MyApp extends StatelessWidget {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Row(
                               children: [
                                 Icon(Icons.person),
@@ -241,6 +241,42 @@ class MyApp extends StatelessWidget {
                                 ),
                               ],
                             ),
+                            Row(
+                              children: [
+                                Icon(Icons.image),
+                                SizedBox(width: 15),
+                                Text('My favorite photo natin'),
+                              ],
+                            ),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(15),
+                              child: Image(
+                                image: AssetImage(
+                                  'assets/gutierrez/presfave.jpeg',
+                                ),
+                                width: 300,
+                                height: 400,
+                                fit: BoxFit.fill,
+                              ),
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.image),
+                                SizedBox(width: 15),
+                                Text('My favorite photo na gumala tayo'),
+                              ],
+                            ),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(15),
+                              child: Image(
+                                image: AssetImage(
+                                  'assets/gutierrez/galapres.jpeg',
+                                ),
+                                width: 500,
+                                height: 400,
+                                fit: BoxFit.fill,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -280,7 +316,7 @@ class MyApp extends StatelessWidget {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Row(
                               children: [
                                 Icon(Icons.person),
@@ -351,6 +387,38 @@ class MyApp extends StatelessWidget {
                                 Text('Favorite Hobby: Matulog'),
                               ],
                             ),
+                            Row(
+                              children: [
+                                Icon(Icons.image),
+                                SizedBox(width: 15),
+                                Text('My favorite photo natin'),
+                              ],
+                            ),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(15),
+                              child: Image(
+                                image: AssetImage('assets/emman/immanfave.jpg'),
+                                width: 400,
+                                height: 400,
+                                fit: BoxFit.fill,
+                              ),
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.image),
+                                SizedBox(width: 15),
+                                Text('My favorite photo na gumala tayo'),
+                              ],
+                            ),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(15),
+                              child: Image(
+                                image: AssetImage('assets/emman/immangala.jpg'),
+                                width: 400,
+                                height: 300,
+                                fit: BoxFit.fill,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -390,7 +458,7 @@ class MyApp extends StatelessWidget {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Row(
                               children: [
                                 Icon(Icons.person),
@@ -461,6 +529,38 @@ class MyApp extends StatelessWidget {
                                 Text('Favorite Hobby: Valorant'),
                               ],
                             ),
+                            Row(
+                              children: [
+                                Icon(Icons.image),
+                                SizedBox(width: 15),
+                                Text('My favorite photo natin'),
+                              ],
+                            ),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(15),
+                              child: Image(
+                                image: AssetImage('assets/zam/zamfave.jpeg'),
+                                width: 400,
+                                height: 300,
+                                fit: BoxFit.fill,
+                              ),
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.image),
+                                SizedBox(width: 15),
+                                Text('My favorite photo na gumala tayo'),
+                              ],
+                            ),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(15),
+                              child: Image(
+                                image: AssetImage('assets/zam/zamgala.jpeg'),
+                                width: 300,
+                                height: 400,
+                                fit: BoxFit.fill,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -500,7 +600,7 @@ class MyApp extends StatelessWidget {
                         padding: const EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Row(
                               children: [
                                 Icon(Icons.person),
@@ -570,6 +670,42 @@ class MyApp extends StatelessWidget {
                                 SizedBox(width: 15),
                                 Text('Favorite Hobby: Gaming'),
                               ],
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.image),
+                                SizedBox(width: 15),
+                                Text('My favorite photo natin'),
+                              ],
+                            ),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(15),
+                              child: Image(
+                                image: AssetImage(
+                                  'assets/caasi/caasifave.jpeg',
+                                ),
+                                width: 400,
+                                height: 300,
+                                fit: BoxFit.fill,
+                              ),
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.image),
+                                SizedBox(width: 15),
+                                Text('My favorite photo na gumala tayo'),
+                              ],
+                            ),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(15),
+                              child: Image(
+                                image: AssetImage(
+                                  'assets/caasi/caasigala.jpeg',
+                                ),
+                                width: 700,
+                                height: 250,
+                                fit: BoxFit.fill,
+                              ),
                             ),
                           ],
                         ),
